@@ -64,6 +64,32 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }*/
+.container {
+  width: 100%;
+  padding: 0 31px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480 px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 480 px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 15px;
+  }
+}
+
 .logo-accent {
   color: #2196f3;
 }
@@ -204,6 +230,10 @@ img {
 .header-address-icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.hero {
+  background-image: url(../images/);
 }
 
 /*.hero {
