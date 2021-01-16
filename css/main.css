@@ -63,10 +63,12 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}*/
+}
+*/
 .container {
   width: 100%;
   padding: 0 31px;
+  border: 1px solid red;
 }
 
 @media screen and (min-width: 480px) {
@@ -230,10 +232,6 @@ img {
 .header-address-icon {
   margin-right: 10px;
   fill: currentColor;
-}
-
-.hero {
-  background-image: url(../images/);
 }
 
 /*.hero {
