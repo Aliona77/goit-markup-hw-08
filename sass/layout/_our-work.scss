@@ -1,3 +1,6 @@
+.our-work {
+  display: none;
+}
 @media screen and (min-width: 1200px) {
   .our-work {
     display: flex;
@@ -15,24 +18,31 @@
   margin-right: 30px;
 }
 .our-work-list-card {
-  width: 370px;
-  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  width: 100%;
   bottom: 0;
-  background-color: rgba(47, 48, 58, 0.8);
+  left: 0;
   position: absolute;
 }
 .our-work-list-text {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
   font-family: var(--main-font);
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 16px;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
   color: #ffffff;
   padding-top: 27px;
   padding-bottom: 27px;
 }
+
 /*
 .our-work > .container {
   padding-bottom: 94px;
@@ -42,22 +52,5 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  &-text {
-    position: absolute;
-    bottom: 0;
-    width: 370px;
-    height: 70px;
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    background-color: rgba(47, 48, 58, 0.8);
-    color: #ffffff;
-    padding-top: 27px;
-    padding-bottom: 27px;
-  }
+
 }*/
