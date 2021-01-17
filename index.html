@@ -196,13 +196,31 @@
           <h2 class="subtitle">Наша команда</h2>
           <ul class="workers-list list">
             <li class="workers-list-item">
-              <img
-                class="workers-photo"
-                src="./images/masters/master1.jpg"
-                alt="Игорь"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width: 320px)"
+                  srcset="./images/masters/img1-1х.jpg 1x, ./img1-2х.jpg 2x"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="
+                    ./images/masters/img1-tablet-1х.jpg 1x,
+                    ./img1-tablet-2x.jpg                2x
+                  "
+                />
+                <source
+                  media="(min-width:1200px)"
+                  srcset="
+                    ./images/masters/img1-desk-1x.jpg 1x,
+                    ./img1-desk-2x.jpg                2x
+                  "
+                />
+                <img
+                  class="workers-photo"
+                  src="./images/masters/img1-1х.jpg"
+                  alt="Игорь"
+                />
+              </picture>
               <div class="workers-content">
                 <h3 class="workers-name">Игорь Демьяненко</h3>
                 <p class="workers-position">Product Designer</p>
@@ -240,13 +258,31 @@
               </div>
             </li>
             <li class="workers-list-item">
-              <img
-                class="workers-photo"
-                src="./images/masters/master2.jpg"
-                alt="Ольга"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width:320px)"
+                  srcset="./images/masters/img2-1х.jpg 1x, ./img2-2х.jpg 2x"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="
+                    ./images/masters/img2-tablet-1x.jpg 1x,
+                    ./img2-tablet-2x.jpg
+                  "
+                />
+                <source
+                  media="(min-width:1200px)"
+                  srcset="
+                    ./images/masters/img2-desk-1x.jpg 1x,
+                    ./img2-desk-2x.jpg
+                  "
+                />
+                <img
+                  class="workers-photo"
+                  src="./images/masters/img2-1х.jpg"
+                  alt="Ольга"
+                />
+              </picture>
               <div class="workers-content">
                 <h3 class="workers-name">Ольга Репина</h3>
                 <p class="workers-position">Frontend Developer</p>
@@ -284,13 +320,31 @@
               </div>
             </li>
             <li class="workers-list-item">
-              <img
-                class="workers-photo"
-                src="./images/masters/master3.jpg"
-                alt="Николай"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width:320px)"
+                  srcset="./images/masters/img3-1х.jpg 1x, ./img3-2х.jpg 2x"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="
+                    ./images/masters/img3-tablet-1x.jpg 1x,
+                    ./img3-tablet-2x.jpg                2x
+                  "
+                />
+                <source
+                  media="(min-width:1200px)"
+                  srcset="
+                    ./images/masters/img3-desk-1x.jpg 1x,
+                    ./img3-desk-2x.jpg
+                  "
+                />
+                <img
+                  class="workers-photo"
+                  src="./images/masters/img3-1х.jpg"
+                  alt="Николай"
+                />
+              </picture>
               <div class="workers-content">
                 <h3 class="workers-name">Николай Тарасов</h3>
                 <p class="workers-position">Marketing</p>
@@ -328,13 +382,31 @@
               </div>
             </li>
             <li class="workers-list-item">
-              <img
-                class="workers-photo"
-                src="./images/masters/master4.jpg"
-                alt="Михаил"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  media="(min-width:320px)"
+                  srcset="./images/masters/img4-1х.jpg 1x, ./img4-2х.jpg 2x"
+                />
+                <source
+                  media="(min-width:768px)"
+                  srcset="
+                    ./images/masters/img4-tablet-1x.jpg 1x,
+                    ./img4-tablet-2x.jpg
+                  "
+                />
+                <source
+                  media="(min-width:1200px)"
+                  srcset="
+                    ./images/masters/img4-desk-1x.jpg 1x,
+                    ./img4-desk-2x.jpg                2x
+                  "
+                />
+                <img
+                  class="workers-photo"
+                  src="./images/masters/img4-1х.jpg"
+                  alt="Михаил"
+                />
+              </picture>
               <div class="workers-content">
                 <h3 class="workers-name">Михаил Ермаков</h3>
                 <p class="workers-position">UI Designer</p>
@@ -375,9 +447,9 @@
         </div>
       </section>
 
-      <!--customers
+      <!--customers-->
 
-      <section class="customers">
+      <section class="customers block">
         <div class="container">
           <h2 class="subtitle">Постоянные клиенты</h2>
           <ul class="costumers-list list">
@@ -425,7 +497,7 @@
             </li>
           </ul>
         </div>
-      </section>-->
+      </section>
     </main>
 
     <!--foot
