@@ -52,6 +52,7 @@
 }
 .footer-form {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .footer-form-input {
   width: 100%;
@@ -72,6 +73,7 @@
   justify-content: center;
   margin-top: 20px;
 }
+
 .footer-social-list-item:not(:last-child) {
   margin-right: 10px;
 }
@@ -124,10 +126,16 @@
 .subscribe-text {
   margin-right: 10px;
 }
-
 @media screen and (max-width: 1199px) {
-  .footer-address-container {
-    margin-bottom: 60px;
+  .footer {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -135,40 +143,46 @@
     margin-bottom: 60px;
   }
 }
-@media screen and (max-width: 1199px) {
-  .button-subscribe {
-    margin-top: 20px;
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .footer-container-slogan {
+    display: inline-block;
   }
 }
 @media screen and (max-width: 1199px) {
-  .footer {
-    text-align: center;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer-address-container {
-    margin-right: 172px;
-    margin-left: 78px;
+  .footer-container-slogan {
     margin-bottom: 60px;
   }
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+  .footer-container-slogan {
+    margin-left: 70px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-social-list {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
   .footer-group {
-    margin: auto;
+    margin-left: 93px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer > .container {
+  .footer-form {
     display: flex;
-    align-items: baseline;
+    margin-top: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer-address-container {
-    margin-right: 84px;
-    margin-left: 0;
-    margin-bottom: 0;
+  .footer-form-input {
+    display: flex;
+    width: 358px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button-subscribe {
+    margin-left: 12px;
   }
 }
 /*.footer {
@@ -275,5 +289,4 @@
 .footer-group {
   margin-left: 94px;
 }
-
 */
