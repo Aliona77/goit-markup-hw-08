@@ -33,15 +33,10 @@
 .workers-list-item {
   width: 450px;
 }
+
 @media screen and (max-width: 767px) {
   .workers-list-item:not(:last-child) {
     margin-bottom: 30px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .workers-list-item {
-    width: calc((100% - 2 * 30px) / 2);
-    margin: 15px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -51,13 +46,24 @@
     margin: -15px;
   }
 }
+@media screen and (min-width: 768px) {
+  .workers-list-item {
+    width: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .workers-list-item {
     width: calc((100% - 4 * 30px) / 4);
     padding-bottom: 30px;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .workers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 /*.workers > .container {
   padding-top: 94px;
 }
