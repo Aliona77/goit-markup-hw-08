@@ -19,12 +19,13 @@
 }
 
 .navigation-menu-link {
+  font-family: var(--main-font);
   font-size: 18px;
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
   text-align: left;
-  color: var(--accent-color);
+  color: #212121;
   text-decoration: none;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -54,10 +55,8 @@
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 0.02em;
-
-  color: var(--secondary-color);
+  color: #757575;
   text-decoration: none;
-
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -244,86 +243,3 @@
     align-items: center;
   }
 }
-
-/*.header {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #ececec;
-  & .container {
-    display: flex;
-    align-items: center;
-  }
-}
-.header .logo {
-  margin-right: 92px;
-}
-
-
-.navigation {
-  display: flex;
-  align-items: center;
-  &-menu {
-    display: flex;
-  }
-}
-
-.navigation-menu-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.navigation-menu-link,
-.address {
-  font-family: var(--main-font);
-  font-weight: 500;
-  margin-left: auto;
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
-}
-.navigation-menu-link {
-  position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.is-current::after {
-  display: inline-block;
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: #2196f3;
-  border-radius: 2px;
-}
-
-.navigation-menu-link,
-.header-address-contact {
-  display: inline-block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  &:hover,
-  &:focus {
-    color: #2196f3;
-  }
-}
-.navigation-menu-link.current {
-  color: #2196f3;
-}
-.header .address {
-  display: flex;
-}
-.header-address-contact {
-  display: flex;
-  align-items: center;
-  font-style: normal;
-  color: #757575;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:not(:last-child) {
-    margin-right: 28px;
-  }
-}
-
-*/
