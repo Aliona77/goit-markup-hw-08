@@ -20,43 +20,65 @@
     <!--header-->
     <header class="header">
       <div class="container">
+        <!--Навигация-->
         <nav class="navigation">
-          <a class="logo link" href="index.html">
-            <span class="logo-accent">Web</span>Studio</a
+          <a class="logo" href="#"
+            ><span class="logo-accent">Web</span>Studio</a
           >
-          <ul class="navigation-menu list">
-            <li class="navigation-menu-item">
-              <a class="navigation-menu-link link is-current" href="index.html"
-                >Студия</a
-              >
-            </li>
-            <li class="navigation-menu-item">
-              <a class="navigation-menu-link link" href="./portfolio.html"
-                >Портфолио</a
-              >
-            </li>
-            <li class="navigation-menu-item">
-              <a class="navigation-menu-link link" href="#">Контакты</a>
-            </li>
-          </ul>
+          <button
+            class="header-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg
+              height="40px"
+              width="40px"
+              aria-label="переключатель мобильного меню"
+            >
+              <use
+                class="icon-menu"
+                href="./imagens/sprite.svg#icon-close-burger"
+              ></use>
+              <use
+                class="icon-buger"
+                href="./imagens/sprite.svg#icon-close-for-burger"
+              ></use>
+            </svg>
+          </button>
+          <div class="menu-container" id="menu-container" data-menu>
+            <ul class="navigation-menu">
+              <li class="navigation-menu-item">
+                <a class="navigation-menu-link is-current" href="#">Студия</a>
+              </li>
+              <li class="navigation-menu-item">
+                <a class="navigation-menu-link" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="navigation-menu-item">
+                <a class="navigation-menu-link" href="#">Контакты</a>
+              </li>
+            </ul>
+
+            <!--Адресс-->
+            <address class="contact">
+              <a class="contact-email" href="mailto:info@devstudio.com">
+                <svg class="contact-icon" width="15px" height="11px">
+                  <use href="imagens/sprite.svg#icon-mail"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+              <a class="contact-phone" href="tell:+380961111111">
+                <svg class="contact-icon" width="10px" height="15px">
+                  <use href="imagens/sprite.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </address>
+          </div>
         </nav>
-        <address class="address">
-          <a
-            class="header-address-contact link"
-            href="mailto:info@devstudio.com"
-          >
-            <svg class="header-address-icon" width="16" height="12">
-              <use href="./images/sprite.svg#icon-mail"></use>
-            </svg>
-            info@devstudio.com
-          </a>
-          <a class="header-address-contact link" href="tel:+380961111111">
-            <svg class="header-address-icon" width="10" height="16">
-              <use href="./images/sprite.svg#icon-phone"></use>
-            </svg>
-            +38 096 111 11 11
-          </a>
-        </address>
       </div>
     </header>
 
@@ -564,12 +586,12 @@
           <p class="footer-slogan">Подпишитесь на рассылку</p>
           <form action="#" class="footer-form">
             <p class="form-subscribe">
-            <input
-              class="footer-form-input"
-              type="email"
-              name="email"
-              placeholder="E-mail"
-            />
+              <input
+                class="footer-form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
             </p>
             <button class="button-subscribe" type="submit">
               <span class="subscribe-text">Подписаться</span>
@@ -582,7 +604,7 @@
       </div>
     </footer>
 
-    <!--backdrop
+    <!--backdrop-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
@@ -641,7 +663,7 @@
           <button type="submit" class="backdrop-form-btn">Отправить</button>
         </form>
       </div>
-    </div>-->
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
