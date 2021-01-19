@@ -1252,16 +1252,17 @@ img {
   background-color: #188ce8;
 }
 
-/*
+.section-portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .button-list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 610px;
-  margin-bottom: 50px;
-  margin-right: auto;
-  margin-left: auto;
-}*/
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
 .modal-button-portfolio {
   font-family: var(--main-font);
   font-weight: 500;
@@ -1289,12 +1290,6 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.button-list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
 .modal-button:not(:last-child) {
   margin-right: 8px;
 }
@@ -1314,14 +1309,13 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   .buttons-list {
     margin-bottom: 50px;
   }
-}
-
-.section-portfolio {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .work-examples-list {
@@ -1367,13 +1361,6 @@ img {
 @media screen and (max-width: 1199px) and (min-width: 768px) {
   .work-examples-title {
     letter-spacing: 0.04em;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .section-portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
   }
 }
 

@@ -1,13 +1,12 @@
-/*
+.section-portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .button-list {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 610px;
-  margin-bottom: 50px;
-  margin-right: auto;
-  margin-left: auto;
-}*/
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
 .modal-button-portfolio {
   font-family: var(--main-font);
   font-weight: 500;
@@ -35,11 +34,7 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
-.button-list {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
+
 .modal-button:not(:last-child) {
   margin-right: 8px;
 }
@@ -56,8 +51,11 @@
     margin-bottom: 30px;
   }
 }
-
 @media screen and (min-width: 1200px) {
+  .section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
   .buttons-list {
     margin-bottom: 50px;
   }
