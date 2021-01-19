@@ -61,10 +61,10 @@
 
     <!--portfolio-->
     <main>
-      <section class="section-portfolio block">
+      <section class="section-portfolio">
         <div class="container">
           <h1 class="visually-hidden" hidden>портфолио</h1>
-          <ul class="button-list list">
+          <!-- <ul class="button-list list">
             <li class="modal-button">
               <button class="modal-button-portfolio" type="button">Все</button>
             </li>
@@ -88,7 +88,7 @@
                 Маркетинг
               </button>
             </li>
-          </ul>
+          </ul>-->
 
           <!--portfolio work  examples list-->
           <ul class="work-examples-list list">
@@ -97,29 +97,29 @@
                 <div class="work-item-img-wrapper">
                   <picture>
                     <source
-                      media="(min-width:1200px )"
+                      media="(max-width:767 )"
                       srcset="
                         ./images/portfolio/img11-1х.jpg 1x,
                         ./img11-2х.jpg                  2x
                       "
                     />
                     <source
-                      media="(min-width:768px )"
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/img11.jpg 1x,
+                        ./img11-d2x.jpg              2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768 )"
                       srcset="
                         ./images/portfolio/img11-t1x.jpg 1x,
                         ./img11-t2x.jpg                  2x
                       "
                     />
-                    <source
-                      media="(min-width:320px )"
-                      srcset="
-                        ./images/portfolio/img11-1х.jpg 1x,
-                        ./img11-2х.jpg
-                      "
-                    />
                     <img
                       class="work-examples-images"
-                      src="./images/portfolio/img11-1х.jpg"
+                      src="./images/portfolio/img11.jpg"
                       alt="ноутбук"
                     />
                   </picture>
@@ -141,26 +141,26 @@
                 <div class="work-item-img-wrapper">
                   <picture>
                     <source
-                      media="(min-width:1200px )"
+                      media="(max-width:767 )"
                       srcset="
                         ./images/portfolio/img22-1х.jpg 1x,
-                        ./img22-d2x.jpg                 2x
+                        ./img22-2х.jpg                  2x
                       " />
                     <source
-                      media="(min-width:768px )"
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/img22.jpg 1x,
+                        ./img22-d2x.jpg              2x
+                      " />
+                    <source
+                      media="(min-width:768 )"
                       srcset="
                         ./images/portfolio/img22-t1x.jpg 1x,
                         ./img22-t2x.jpg                  2x
                       " />
-                    <source
-                      media="(min-width:320px )"
-                      srcset="
-                        ./images/portfolio/img22-1х.jpg 1x,
-                        ./img22-2x.jpg                  2x
-                      " />
                     <img
                       class="work-examples-images"
-                      src="./images/portfolio/img22-1х.jpg"
+                      src="./images/portfolio/img22.jpg"
                       alt="гра в баскетбол"
                   /></picture>
 
@@ -183,26 +183,26 @@
                 <div class="work-item-img-wrapper">
                   <picture>
                     <source
-                      media="(min-width:1200px )"
-                      srcset="
-                        ./images/portfolio/img33-1х.jpg 1x,
-                        ./img33-d2x.jpg                 2x
-                      " />
-                    <source
-                      media="(min-width:768px )"
-                      srcset="
-                        ./images/portfolio/img33-t1x.jpg 1x,
-                        ./img33-t2x.jpg                  2x
-                      " />
-                    <source
-                      media="(min-width:320px )"
+                      media="(max-width:767 )"
                       srcset="
                         ./images/portfolio/img33-1х.jpg 1x,
                         ./img33-2х.jpg                  2x
                       " />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/img33.jpg 1x,
+                        ./img33-d2x.jpg              2x
+                      " />
+                    <source
+                      media="(min-width:768 )"
+                      srcset="
+                        ./images/portfolio/img33-t1x.jpg 1x,
+                        ./img33-t2x.jpg                  2x
+                      " />
                     <img
                       class="work-examples-images"
-                      src="./images/portfolio/img33-1х.jpg"
+                      src="./images/portfolio/img33.jpg"
                       alt="лого ресторану"
                   /></picture>
 
@@ -223,26 +223,26 @@
                 <div class="work-item-img-wrapper">
                   <picture>
                     <source
-                      media="(min-width:1200px )"
+                      media="(max-width:767 )"
                       srcset="
                         ./images/portfolio/img44-1х.jpg 1x,
                         ./img44-2х.jpg                  2x
                       " />
                     <source
-                      media="(min-width:768px )"
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/img44.jpg 1x,
+                        ./img44-d2x.jpg              2x
+                      " />
+                    <source
+                      media="(min-width:768 )"
                       srcset="
                         ./images/portfolio/img44-t1x.jpg 1x,
                         ./img44-t2x.jpg                  2x
                       " />
-                    <source
-                      media="(min-width:320px )"
-                      srcset="
-                        ./images/portfolio/img44-1х.jpg 1x,
-                        ./img44-2х.jpg                  2x
-                      " />
                     <img
                       class="work-examples-images"
-                      src="./images/portfolio/img44-1х.jpg"
+                      src="./images/portfolio/img44.jpg"
                       alt="наушники"
                   /></picture>
 
@@ -263,26 +263,26 @@
                 <div class="work-item-img-wrapper">
                   <picture>
                     <source
-                      media="(min-width:1200px )"
-                      srcset="
-                        ./images/portfolio/img55-1х.jpg 1x,
-                        ./img55-d2x.jpg                 2x
-                      " />
-                    <source
-                      media="(min-width:768px )"
-                      srcset="
-                        ./images/portfolio/img55-t1x.jpg 1x,
-                        ./img55-t2x.jpg                  2x
-                      " />
-                    <source
-                      media="(min-width:320px )"
+                      media="(max-width:767 )"
                       srcset="
                         ./images/portfolio/img55-1х.jpg 1x,
                         ./img55-2х.jpg                  2x
                       " />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/img55.jpg 1x,
+                        ./img55-d2x.jpg              2x
+                      " />
+                    <source
+                      media="(min-width:768 )"
+                      srcset="
+                        ./images/portfolio/img55-t1x.jpg 1x,
+                        ./img55-t2x.jpg                  2x
+                      " />
                     <img
                       class="work-examples-images"
-                      src="./images/portfolio/img55-1х.jpg"
+                      src="./images/portfolio/img55.jpg"
                       alt="бокси"
                   /></picture>
 
@@ -303,26 +303,26 @@
                 <div class="work-item-img-wrapper">
                   <picture>
                     <source
-                      media="(min-width:1200px )"
-                      srcset="
-                        ./images/portfolio/img66-1х.jpg 1x,
-                        ./img66-d2x.jpg                 2x
-                      " />
-                    <source
-                      media="(min-width:768px )"
-                      srcset="
-                        ./images/portfolio/img66-t1x.jpg 1x,
-                        ./img66-t2x.jpg                  2x
-                      " />
-                    <source
-                      media="(min-width:320px )"
+                      media="(max-width:767 )"
                       srcset="
                         ./images/portfolio/img66-1х.jpg 1x,
                         ./img66-2х.jpg                  2x
                       " />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/img66.jpg 1x,
+                        ./img66-d2x.jpg              2x
+                      " />
+                    <source
+                      media="(min-width:768 )"
+                      srcset="
+                        ./images/portfolio/img66-t1x.jpg 1x,
+                        ./img66-t2x.jpg                  2x
+                      " />
                     <img
                       class="work-examples-images"
-                      src="./images/portfolio/img66-1х.jpg"
+                      src="./images/portfolio/img66.jpg"
                       alt="монитор компютера"
                   /></picture>
 
@@ -345,29 +345,29 @@
                 <div class="work-item-img-wrapper">
                   <picture>
                     <source
-                      media="(min-width:1200px)"
-                      srcset="
-                        ./images/portfolio/img77-1х.jpg 1x,
-                        ./img77-d2x.jpg                 2x
-                      "
-                    />
-                    <source
-                      media="(min-width:768px )"
-                      srcset="
-                        ./images/portfolio/img77-t1x.jpg 1x,
-                        ./img77-t2x.jpg                  2x
-                      "
-                    />
-                    <source
-                      media="(min-width:320px )"
+                      media="(max-width:767 )"
                       srcset="
                         ./images/portfolio/img77-1х.jpg 1x,
                         ./img77-2х.jpg                  2x
                       "
                     />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/img77.jpg 1x,
+                        ./img77-d2x.jpg              2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768 )"
+                      srcset="
+                        ./images/portfolio/img77-t1x.jpg 1x,
+                        ./img77-t2x.jpg                  2x
+                      "
+                    />
                     <img
                       class="work-examples-images"
-                      src="./images/portfolio/img77-1х.jpg"
+                      src="./images/portfolio/img77.jpg"
                       alt="журнал"
                     />
                   </picture>
@@ -389,29 +389,29 @@
                 <div class="work-item-img-wrapper">
                   <picture>
                     <source
-                      media="(min-width:1200px )"
-                      srcset="
-                        ./images/portfolio/img88-1х.jpg 1x,
-                        ./img88-d2x.jpg                 2x
-                      "
-                    />
-                    <source
-                      media="(min-width:768px )"
-                      srcset="
-                        ./images/portfolio/img88-t1x.jpg 1x,
-                        ./img88-t2x.jpg
-                      "
-                    />
-                    <source
-                      media="(min-width:320px )"
+                      media="(max-width:767 )"
                       srcset="
                         ./images/portfolio/img88-1х.jpg 1x,
                         ./img88-2х.jpg                  2x
                       "
                     />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/img88.jpg 1x,
+                        ./img88-d2x.jpg              2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768 )"
+                      srcset="
+                        ./images/portfolio/img88-t1x.jpg 1x,
+                        ./img88-t2x.jpg                  2x
+                      "
+                    />
                     <img
                       class="work-examples-images"
-                      src="./images/portfolio/img88-1х.jpg"
+                      src="./images/portfolio/img88.jpg"
                       alt="марка"
                     />
                   </picture>
@@ -433,29 +433,29 @@
                 <div class="work-item-img-wrapper">
                   <picture>
                     <source
-                      media="(min-width:1200px )"
-                      srcset="
-                        ./images/portfolio/img99-1х.jpg 1x,
-                        ./img99-d2x.jpg                 2x
-                      "
-                    />
-                    <source
-                      media="(min-width:768px )"
-                      srcset="
-                        ./images/portfolio/img99-t1x.jpg 1x,
-                        ./img99-t2x.jpg                  2x
-                      "
-                    />
-                    <source
-                      media="(min-width: 320px)"
+                      media="(max-width:767 )"
                       srcset="
                         ./images/portfolio/img99-1х.jpg 1x,
                         ./img99-2х.jpg                  2x
                       "
                     />
+                    <source
+                      media="(min-width:1200px )"
+                      srcset="
+                        ./images/portfolio/img99.jpg 1x,
+                        ./img99-d2x.jpg              2x
+                      "
+                    />
+                    <source
+                      media="(min-width:768 )"
+                      srcset="
+                        ./images/portfolio/img99-t1x.jpg 1x,
+                        ./img99-t2x.jpg                  2x
+                      "
+                    />
                     <img
                       class="work-examples-images"
-                      src="./images/portfolio/img99-1х.jpg"
+                      src="./images/portfolio/exm9.jpg"
                       alt="нетбук"
                     />
                   </picture>
