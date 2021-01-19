@@ -190,8 +190,14 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .footer-form {
+    display: flex;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .button-subscribe {
-    margin-left: 12px;
+    margin-right: 12px;
   }
 }
 @media screen and (max-width: 1199px) {

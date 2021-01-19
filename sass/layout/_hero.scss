@@ -5,20 +5,21 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/hero/hero-1x.jpg);
+    url("/images/hero/hero-mobile.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 480px 400px;
 }
 .title-hero {
   font-family: var(--main-font);
-  font-weight: 900;
   font-size: 26px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  font-weight: 900;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
@@ -29,7 +30,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/hero/hero-2x.jpg");
+      url("/images/hero/hero-mobile@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
@@ -38,7 +39,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/hero/hero_tablet-1x.jpg");
+      url(/images/hero/hero-tablet.jpg);
     background-size: 768px 400px;
   }
 }
@@ -50,7 +51,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/hero/hero_tablet-2x.jpg");
+      url(/images/hero/hero-tablet@2px.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -59,8 +60,10 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/hero/hero_desk-1x.jpg");
+      url(/images/hero/hero-desktop.jpg);
     background-size: 1600px 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 
   .title-hero {
@@ -77,38 +80,6 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("/images/hero/hero_desk-2x.jpg");
+      url(/images/hero/hero-desktop@2x.jpg);
   }
 }
-
-/*.hero {
-  background-color: #2f303a;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/hero/hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  & .title-hero {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    width: 696px;
-  }
-}
-.hero .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.title-hero {
-  font-family: var(--main-font);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.363;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-}*/
