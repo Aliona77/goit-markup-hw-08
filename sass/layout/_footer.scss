@@ -90,9 +90,7 @@
   margin-right: 12px;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-group {
-  margin-left: 94px;
-}
+
 .form-subscribe {
   max-width: 450px;
   height: 50px;
@@ -205,7 +203,11 @@
     margin-top: 20px;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .footer-group {
+    margin-left: 94px;
+  }
+}
 /*
 .footer > .container {
   display: flex;
