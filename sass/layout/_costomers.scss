@@ -33,6 +33,12 @@
   width: calc((100% - 2 * 30px) / 2);
   margin: 15px;
 }
+@media screen and (min-width: 1200px) {
+  .customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .costumers-list-item {
