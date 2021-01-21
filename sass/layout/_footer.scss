@@ -14,6 +14,7 @@
     margin-bottom: 10px;
   }
 }
+
 .logo-footer {
   font-family: var(--secondary-font);
   font-weight: bold;
@@ -50,7 +51,12 @@
   margin-bottom: 20px;
   display: inline-block;
 }
-
+.form-subscribe {
+  max-width: 450px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .footer-social-link {
   display: flex;
   justify-content: center;
@@ -70,6 +76,7 @@
 .footer-social-icon {
   fill: #ffffff;
 }
+
 .footer-form-input {
   .form-subscribe & {
     width: 100%;
@@ -78,21 +85,15 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: #2f303a;
-    padding: 15px 16px;
     color: rgba(255, 255, 255, 0.6);
+    padding: 15px 16px;
   }
   &::placeholder {
     color: rgba(255, 255, 255, 0.6);
   }
 }
-
-.form-subscribe {
-  max-width: 450px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
-
-  @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .form-subscribe {
     display: flex;
     width: 358px;
   }
@@ -121,11 +122,7 @@
 .subscribe-text {
   margin-right: 10px;
 }
-.footer .container {
-  @media screen and (min-width: 1200px) {
-    @include centeredFlex(baseline);
-  }
-}
+
 @media screen and (min-width: 1200px) {
   .logo-footer {
     font-weight: 700;
@@ -195,11 +192,13 @@
     margin-top: 20px;
   }
 }
-.button-subscribe {
-  @media screen and (min-width: 1200px) {
-    margin-right: 12px;
+@media screen and (min-width: 1200px) {
+  .button-subscribe {
+    margin-left: 12px;
   }
-  @media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 1199px) {
+  .button-subscribe {
     margin-top: 20px;
   }
 }
@@ -209,28 +208,3 @@
     margin-left: 94px;
   }
 }
-/*
-.footer > .container {
-  display: flex;
-  align-items: baseline;
-}
-.footer-address-container {
-  margin-right: 83px;
-}
-
-.logo-footer {
-  font-family: var(--secondary-font);
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  display: block;
-  margin-bottom: 20px;
-}
-
-
-
-
-
-*/
