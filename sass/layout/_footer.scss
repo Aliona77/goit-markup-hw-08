@@ -40,18 +40,6 @@
   color: rgba(255, 255, 255, 0.6);
   display: block;
 }
-.footer-slogan {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 20px;
-  display: inline-block;
-}
 
 .footer-social-link {
   display: flex;
@@ -72,7 +60,17 @@
 .footer-social-icon {
   fill: #ffffff;
 }
-
+.footer-slogan {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
+}
 @media screen and (min-width: 768px) {
   .footer-flex-container {
     display: flex;

@@ -829,19 +829,6 @@ img {
   display: block;
 }
 
-.footer-slogan {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 20px;
-  display: inline-block;
-}
-
 .footer-social-link {
   display: flex;
   justify-content: center;
@@ -860,6 +847,18 @@ img {
 
 .footer-social-icon {
   fill: #ffffff;
+}
+
+.footer-slogan {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: inline-block;
 }
 
 @media screen and (min-width: 768px) {
